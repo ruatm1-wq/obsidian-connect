@@ -1,6 +1,20 @@
 {
   "_comment": "拷贝此文件到 ~/.obsidian-connect/config.json 并填入你的凭证",
-  "host": "https://localhost:27124",
-  "token": "your-obsidian-api-token-here",
-  "vault": "your-vault-name-here"
+  "default_host": "https://localhost:27124",
+  "default_token": "your-obsidian-api-token-here",
+  "default": "你的默认vault名字",
+  "vaults": {
+    "工作台": {
+      "host": "https://localhost:27124",
+      "token": "your-obsidian-api-token-here",
+      "vault": "D:/我的工作台",
+      "desc": "日常工作台 vault"
+    },
+    "ai-hub": {
+      "host": "https://localhost:27124",
+      "token": "your-obsidian-api-token-here",
+      "vault": "D:/agent-squad/ai hub",
+      "desc": "AI Agent 共享知识库"
+    }
+  }
 }
