@@ -1,9 +1,17 @@
 <!-- markdownlint-disable MD033 MD041 -->
 
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Obsidian-1.4%2B-7C3FED?style=flat-square&logo=obsidian" alt="Obsidian">
+  <img src="https://img.shields.io/github/license/ruatm1-wq/obsidian-connect?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/stars/ruatm1-wq/obsidian-connect?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs Welcome">
+</p>
+
 <h1 align="center">🔗 Obsidian Connect</h1>
 
 <p align="center">
-  <em>轻量级 Obsidian Local REST API 连接管理器 · Lightweight connection manager for Obsidian's Local REST API</em>
+  <em>轻量级 Obsidian Local REST API 连接管理器 · Lightweight multi-vault CLI for AI agents</em>
 </p>
 
 <p align="center">
