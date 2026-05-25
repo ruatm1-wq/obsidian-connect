@@ -55,11 +55,26 @@ cp config.template.json ~/.obsidian-connect/config.json
 ### 用法
 
 ```bash
-# 检查连接状态
+# 检查默认 vault 连接状态
 python obsidian-connect.py check
+
+# 检查指定 vault
+python obsidian-connect.py check 工作台
+
+# 列出所有 vault
+python obsidian-connect.py list
 
 # 查看当前配置
 python obsidian-connect.py config
+
+# 添加新 vault（交互式）
+python obsidian-connect.py add <vault名字>
+
+# 删除 vault
+python obsidian-connect.py remove <vault名字>
+
+# 设置默认 vault
+python obsidian-connect.py default <vault名字>
 ```
 
 ### 输出示例
@@ -121,11 +136,26 @@ cp config.template.json ~/.obsidian-connect/config.json
 ### Usage
 
 ```bash
-# Check connection
+# Check default vault
 python obsidian-connect.py check
 
-# View current config
+# Check specific vault
+python obsidian-connect.py check my-vault
+
+# List all vaults
+python obsidian-connect.py list
+
+# View config
 python obsidian-connect.py config
+
+# Add vault (interactive)
+python obsidian-connect.py add <vault-name>
+
+# Remove vault
+python obsidian-connect.py remove <vault-name>
+
+# Set default vault
+python obsidian-connect.py default <vault-name>
 ```
 
 ### Sample Output
